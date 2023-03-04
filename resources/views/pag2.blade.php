@@ -48,10 +48,10 @@
         </form>
     </div>
 
-    <h1>Aqui estoy en usuarios</h1>
+    <h1>Aqui estoy en PAGINA 2</h1>
 
-    <a href="{{route('layout')}}"> Link para regresar a layout</a>
-    <a href="{{route('pag1')}}"> Link para regresar a formulario</a>
+    <h1> <a href="{{route('layout')}}"> Link para regresar a layout o pagina principal</a> </h1>
+    <h1> <a href="{{route('pag1')}}"> Link para regresar a pagina 1</a> </h1>
 
 
 </body>

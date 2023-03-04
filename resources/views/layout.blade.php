@@ -63,8 +63,8 @@
 
 <div>
     <h1>Estoy enlayout</h1>
-    <a href="{{route('pag1')}}"> Links a Formulario Libros</a><br><br>
-    <a href="{{route('pag2')}}"> Links a Formulario Usuarios</a>
+    <h1><a href="{{route('pag1')}}"> Links a PAGINA 1</a><br><br>  </h1><a href="{{route('pag1')}}"> Links a Formulario Libros</a><br><br>
+   <h1><a href="{{route('pag2')}}"> Links a PAGINA 2</a></h1>
 </div>
 
 <div>

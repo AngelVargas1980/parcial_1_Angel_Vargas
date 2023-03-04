@@ -85,10 +85,10 @@ html>
         </form>
     </div>
 
-    <h1>Aqui estoy en formulario</h1>
+    <h1>Aqui estoy en PAGINA 1</h1>
 
-    <a href="{{route('layout')}}"> Link para regresar a layout</a>
-    <a href="{{route('pag2')}}"> Link para regresar a usuarios</a>
+    <h1> <a href="{{route('layout')}}"> Link para regresar a layout o pagina principal</a>  </h1>
+    <h1> <a href="{{route('pag2')}}"> Link para regresar a pagina 2</a> </h1>
 
 </div>
 </body>
