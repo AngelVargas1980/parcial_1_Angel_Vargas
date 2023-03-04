@@ -51,7 +51,7 @@
     <h1>Aqui estoy en usuarios</h1>
 
     <a href="{{route('layout')}}"> Link para regresar a layout</a>
-    <a href="{{route('formulario')}}"> Link para regresar a formulario</a>
+    <a href="{{route('pag1')}}"> Link para regresar a formulario</a>
 
 
 </body>

@@ -7,15 +7,15 @@ use Illuminate\Http\Request;
 class Controlador extends Controller
 {
 
-    public function funcFormulario()
+    public function funcPag1()
     {
-        return view('formulario');
+        return view('pag1');
 
     }
 
-    public function funcUsuarios()
+    public function funcPag2()
     {
-        return view('usuarios');
+        return view('pag2');
 
     }
 

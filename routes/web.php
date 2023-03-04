@@ -18,9 +18,9 @@ Route::get('/', function () {
 });
 
 
-Route::get('/funcFormulario', [\App\Http\Controllers\Controlador::class,  'funcFormulario'])->name('formulario');
+Route::get('/funcPag1', [\App\Http\Controllers\Controlador::class,  'funcPag1'])->name('pag1');
 
-Route::get('/funcUsuarios', [\App\Http\Controllers\Controlador::class,  'funcUsuarios'])->name('usuarios');
+Route::get('/funcPag2', [\App\Http\Controllers\Controlador::class,  'funcPag2'])->name('pag2');
 
 Route::get('/funHome', [\App\Http\Controllers\Controlador::class,  'funHome'])->name('home');
 
