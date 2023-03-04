@@ -14,5 +14,14 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('home');
 });
+
+
+Route::get('/funcFormulario', [\App\Http\Controllers\Controlador::class,  'funcFormulario'])->name('formulario');
+
+Route::get('/funcUsuarios', [\App\Http\Controllers\Controlador::class,  'funcUsuarios'])->name('usuarios');
+
+Route::get('/funHome', [\App\Http\Controllers\Controlador::class,  'funHome'])->name('home');
+
+Route::get('/funcLayout', [\App\Http\Controllers\Controlador::class,  'funcLayout'])->name('layout');
